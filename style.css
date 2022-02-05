@@ -1,0 +1,63 @@
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  background-color: lightblue;
+  height: 100px;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: 30px;
+}
+
+.contact-info {
+  display: block;
+  font-size: 17px;
+}
+
+.skills {
+  display: flex;
+  background-color: beige;
+  min-width: 200px;
+  width: max-content;
+  padding-right: 15px;
+  height: 100%;
+  font-size: 20px;
+}
+
+.skills li {
+  display: flex;
+  justify-content: end;
+  font-style: italic;
+}
+
+.rating-container {
+  margin-left: 5px;
+  margin-top: 5px;
+  display: flex;
+  height: 15px;
+
+}
+.rating {
+  margin-left: 2px;
+  width: 15px;
+  height: 15px;
+}
+
+.color-green {
+  background-color: green;
+}
+
+.color-grey {
+  background-color: grey;
+}
+
+.skills-heading {
+  display: flex;
+  justify-content: flex-start;
+  margin: 10px 0 0 10px;
+  font-weight: 600;
+}
